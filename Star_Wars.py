@@ -4,7 +4,7 @@
 #Carlos Jesus Fernandez Basso <cjferba@gmail.com>
 #-------------------------------------------------------------------
 import random
-import os, pygame,sys#, MySQLdb, time
+import os, pygame,sys, MySQLdb, time
 from pygame.locals import *
 ANCHO  = 800
 ALTO = 600
@@ -139,10 +139,10 @@ pygame.init()
 laser=60
 Pantalla = pygame.display.set_mode( (ANCHO, ALTO) )
 pygame.display.set_caption( "Star Wars Vidas=3" )
-gameover = cargarImagen( "gameover.jpg" )
 fondo_imagen = cargarImagen( "background.bmp" )
 fondo_imagen2 = cargarImagen( "nivel2.jpg" )
 fondo_imagen3 = cargarImagen( "nivel3.jpg" )
+gameover = cargarImagen( "gameover.jpg" )
 Pantalla.blit(fondo_imagen, (0,0))
 explotar = cargarSonido( "explode1.wav" )
 tieDisparo = cargarSonido( "empire_laser.wav" )
