@@ -1,4 +1,4 @@
 JuegoPygame
 ===========
 
-Juego utilizando PyGame
+Juego utilizando PyGame y MySql
